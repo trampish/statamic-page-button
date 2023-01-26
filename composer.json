@@ -1,0 +1,29 @@
+{
+	"name": "kaweb/page-button",
+	"description": "A Page Button addon package.",
+	"type": "statamic-addon",
+	"authors": [
+		{
+			"name": "Andrew Laignel",
+			"email": "andrew.laignel@kaweb.co.uk",
+			"homepage": "https://kaweb.co.uk"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"Kaweb\\PageButton\\": "src"
+		}
+	},
+	"require": {},
+	"extra": {
+		"statamic": {
+			"name": "Page Button",
+			"description": "Page Button addon"
+		},
+		"laravel": {
+			"providers": [
+				"Kaweb\\PageButton\\ServiceProvider"
+			]
+		}
+	}
+}
