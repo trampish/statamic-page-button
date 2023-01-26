@@ -1,5 +1,5 @@
 {
-	"name": "kaweb/page-button",
+	"name": "andrew-l/page-button",
 	"description": "A Page Button addon package.",
 	"type": "statamic-addon",
 	"authors": [
@@ -11,7 +11,7 @@
 	],
 	"autoload": {
 		"psr-4": {
-			"Kaweb\\PageButton\\": "src"
+			"AndrewL\\PageButton\\": "src"
 		}
 	},
 	"require": {},
@@ -22,7 +22,7 @@
 		},
 		"laravel": {
 			"providers": [
-				"Kaweb\\PageButton\\ServiceProvider"
+				"AndrewL\\PageButton\\ServiceProvider"
 			]
 		}
 	}

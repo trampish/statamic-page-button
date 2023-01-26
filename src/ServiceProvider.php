@@ -1,6 +1,6 @@
 <?php
 
-namespace Kaweb\PageButton;
+namespace AndrewL\PageButton;
 
 use Statamic\Facades\CP\Nav;
 use Statamic\Providers\AddonServiceProvider;
