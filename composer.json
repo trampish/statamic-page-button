@@ -5,8 +5,8 @@
 	"authors": [
 		{
 			"name": "Andrew Laignel",
-			"email": "andrew.laignel@kaweb.co.uk",
-			"homepage": "https://kaweb.co.uk"
+			"email": "andrew@laignel@.com",
+			"homepage": "https://laignel.com"
 		}
 	],
 	"autoload": {
@@ -25,5 +25,7 @@
 				"AndrewL\\PageButton\\ServiceProvider"
 			]
 		}
-	}
+	},
+	"minimum-stability": "dev",
+	"prefer-stable": true
 }
